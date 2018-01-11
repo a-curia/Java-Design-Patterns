@@ -43,8 +43,8 @@ be provable for objects y of type S where S is a subtype of T.
 -   every subclass/derived class should be substitutable for their base/parent
     class
 
--   a subclass should override the parent class methods in a way that does** not
-    break functionality from a client’s point of view**
+-   a subclass should override the parent class methods in a way that does\*\*
+    not break functionality from a client’s point of view\*\*
 
  
 
@@ -64,5 +64,33 @@ abstractions.
 -   from a functional point of view, these containers and injection concepts can
     be solved with a simple higher order function, or hole-in-the-middle type
     pattern which are built into the language
+
+ 
+
+Creational Design Patterns
+--------------------------
+
+ 
+
+### Builder
+
+ 
+
+Motivation
+
+-   some objects are simple and can be created in a single constructor call
+
+    -   other objects require a lot of ceremony to create(eg. StringBuilder)
+
+    -   having an object with 10 constructor arguments is not productive
+
+    -   instead, opt for piecewise construction
+
+     
+
+    When piecewise object construction is complicated, provide an API for doing
+    it succinctly.
+
+ 
 
  
