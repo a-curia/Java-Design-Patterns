@@ -70,6 +70,11 @@ abstractions.
 Creational Design Patterns
 --------------------------
 
+These design patterns are concerned with **the way of creating objects**.
+
+These design patterns are used when a decision must be made at the time of
+instantiation of a class (i.e. creating an object of a class).
+
  
 
 ### Builder
@@ -136,3 +141,14 @@ usage and relies on object composition, as object creation is implemented in
 methods exposed in the factory interface.
 
  
+
+ 
+
+### Composite Design Pattern
+
+In software engineering, the composite pattern is a partitioning design pattern.
+The composite pattern describes a group of objects that is treated the same way
+as a single instance of the same type of object. The intent of a composite is to
+"compose" objects into tree structures to represent part-whole hierarchies.
+Implementing the composite pattern lets clients treat individual objects and
+compositions uniformly.
